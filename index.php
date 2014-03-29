@@ -29,8 +29,8 @@ if($actions[0] != "v1"){
     die("Version non supportée");
 }
 
-if(empty($_GET["key"]) || $_GET["key"] != "fauxginger"){
-    die("Clé invalide (la clé est 'fauxginger')");
+if(empty($_GET["key"]) || $_GET["key"] != "XQQm1q2hEyfoMsyW"){
+    die("Clé invalide");
 }
 
 if(empty($actions[1])){
